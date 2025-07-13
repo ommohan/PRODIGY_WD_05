@@ -1,0 +1,38 @@
+"Code"👇
+---<index.html>----
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body onload="getWeather()">
+  <div class="weather_wrapper">
+    <div class="current_temp">
+      <div class="temp_box">
+        <div class="icon">
+          <div class="icon-img"></div>
+          <span class="description"></span>
+        </div>
+        <div class="temp">--°</div>
+        <div class="city">Loading...</div>
+      </div>
+      <input type="text" id="city" placeholder="Enter city" />
+    </div>
+    <div class="current_weather">
+      <div class="weather">
+        <div class="feels_like"></div>
+        <div class="humidity"></div>
+        <div class="pressure"></div>
+        <div class="wind"></div>
+      </div>
+      <div class="search" onclick="f1()">Search</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
